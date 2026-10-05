@@ -16,18 +16,32 @@
             nav {
                 background-color: lightblue; padding: 20px;
             }
+            #homeButton { 
+                background-color: yellow;
+                padding: 10px;
+                margin: 5px;
+                font-size: 50px;
+            }
+
+            .pLink {
+                color: red;
+                font-weight: bold;
+                font-size: 12px;
+                background-color: white;
+            }
         </style>
     </head>
     <body>
         <h1>Inline Style Attribute</h1>
         <p>This is a styled menu using style attribute and emoji</p>
         <nav>
-             <a href="index.html">⛺ Home</a>
+             <a id="homeButton" href="index.html">Home</a>
             <a href="demo.html">Table</a>
             <a href="style.html">Style</a>
 
         </nav>
         <h1>Another Styled Heading</h1>
+        <p> this is some random text and the link to<a class="pLink" href="demo.html">table page</a></p>
     </body>
 
 </html>
